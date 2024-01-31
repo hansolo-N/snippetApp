@@ -11,7 +11,7 @@ function SnippetCreatePage() {
 
   return (
     <form action={action}>
-      <h3 className="font-bold m-3"> create a snippet</h3>
+      <h3 className="font-bold m-4 text-lg"> create a code snippet</h3>
       <div className="flex flex-col gap-4">
         <div className="flex gap-4">
           <label className="w-12" htmlFor="title">
@@ -43,7 +43,7 @@ function SnippetCreatePage() {
           </div>
         ) : null}
 
-        <button type="submit" className="rounded p-2 bg-blue-200">
+        <button type="submit" className="rounded p-2 bg-blue-200 mx-auto w-1/2">
           create snippet
         </button>
       </div>
